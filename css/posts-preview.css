@@ -1,0 +1,40 @@
+.blog-post-preview-parent{
+    grid-area: main;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.blog-post-preview{
+    padding: 20px;
+    border-radius: 25px;
+    margin: 15px 0;
+    background-color: #6d6d6d;
+    width: 400px;
+}
+
+#blog-post-preview-img-1 {
+    background-image: url("../img/thumbnails/post_1_thumbnail.jpg");
+}
+
+#blog-post-preview-img-2 {
+    background-image: url("../img/thumbnails/post_2_thumbnail.jpg");
+}
+
+#blog-post-preview-img-3 {
+    background-image: url("../img/thumbnails/post_3_thumbnail.jpg");
+}
+
+.blog-post-preview-img{
+    height: 200px;
+    width: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media(max-width: 1100px) {
+    .blog-post-preview{
+        width: 95%;
+    }
+}
+

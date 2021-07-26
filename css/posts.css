@@ -1,0 +1,62 @@
+.blog-post-parent{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    grid-area: 3 / 2 / span 1 / span 2;
+    text-align: center;
+    align-items: center;
+}
+
+.blog-post-content{
+    padding-bottom: 25px;
+}
+
+#blog-post-1-img{
+    background-image: url("../img/thumbnails/post_1_thumbnail.jpg");
+}
+
+#blog-post-2-img{
+    background-image: url("../img/thumbnails/post_2_thumbnail.jpg");
+}
+
+#blog-post-3-img{
+    background-image: url("../img/thumbnails/post_2_thumbnail.jpg");
+}
+
+.blog-post-img{
+    margin: 25px 0;
+    height: 300px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.blog-post-author-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#blog-post-1-author-avatar{
+    background-image: url("../img/authors/raynor.jpg");
+}
+
+#blog-post-2-author-avatar{
+    background-image: url("../img/authors/selendis.jpg");
+}
+
+#blog-post-3-author-avatar{
+    background-image: url("../img/authors/kerrigan.jpg");
+}
+
+.blog-post-author-avatar{
+    height: 100px;
+    width: 100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50px;
+}
+
+.blog-post-social-links{
+    margin: 30px 0;
+}

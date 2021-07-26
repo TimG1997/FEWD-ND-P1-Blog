@@ -1,0 +1,98 @@
+@import "social.css";
+
+body {
+    font-family: Verdana, sans-serif;
+    background-color: #444;
+    color: #e5e5e5;
+    font-size: 16px;
+}
+
+
+
+.grid {
+    display: grid;
+    grid-template-columns: 10% 40% 40% 10%;
+    grid-template-areas: "header header header header" "nav nav nav nav" "main main main main" "footer footer footer footer";
+}
+
+.heading {
+    grid-area: header;
+    display: flex;
+    justify-content: center;
+}
+
+nav {
+    grid-area: nav;
+    display: flex;
+    justify-content: center;
+}
+
+ul {
+    list-style-type: none;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+    margin-right: 15px;
+}
+
+a {
+    color: #e5e5e5;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+    cursor: pointer;
+}
+
+.blog-post-btn{
+    padding: 10px 15px;
+    border-radius: 5px;
+    border:none;
+    background-color: #e5e5e5;
+}
+
+.blog-post-btn:hover{
+    background-color: #f4f4f4;
+    cursor: pointer;
+}
+
+.blog-post-btn a {
+    color: #444444;
+}
+
+footer {
+    margin-top: 50px;
+    grid-area: footer;
+    height: 300px;
+    background-color: #777777;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+}
+
+footer a{
+    margin: 15px 0;
+}
+
+#copyright-disclaimer{
+    margin-top: 100px;
+    color: #c9c9c9;
+}
+
+@media(max-width: 1100px) {
+    body {
+        font-size: 18px;
+    }
+
+    a{
+        font-size: 30px;
+    }
+
+    button{
+        font-size: 25px;
+    }
+}
