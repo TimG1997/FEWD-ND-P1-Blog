@@ -1,4 +1,6 @@
 @import "social.css";
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css";
+@import "posts.css";
 
 body {
     font-family: Verdana, sans-serif;
@@ -45,6 +47,11 @@ a {
 a:hover {
     color: white;
     cursor: pointer;
+}
+
+figure{
+    width: 100%;
+    margin: 0;
 }
 
 .blog-post-btn{
@@ -94,5 +101,9 @@ footer a{
 
     button{
         font-size: 25px;
+    }
+
+    .blog-post-preview-img{
+        width: 100% !important;
     }
 }
